@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-section {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  border: 5px solid white;
+  margin: 20px;
+  border-radius: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.btn-red {
+  background-color: red;
+}
+.btn-blue {
+  background-color: blue;
+}
+.btn-green {
+  background-color: green;
+}
+.btn-default {
+  background-color: aquamarine;
+}
