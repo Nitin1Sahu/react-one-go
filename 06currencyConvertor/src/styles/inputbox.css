@@ -1,0 +1,32 @@
+.container {
+    width: 600px;
+    height: 200px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container__label {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.container__input {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.container__input input {
+    width: 40%;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: none;
+}
+.container__input select {
+    width: 30%;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+}
